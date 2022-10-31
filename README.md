@@ -9,3 +9,5 @@ In this repository you will find a list of different segmentation model implemen
 * U-Net
   * Link to code: https://github.com/Phrungck/segmentation-models/blob/main/models/unet.py
   * Link to paper: https://arxiv.org/abs/1505.04597
+ 
+   ![alt text](https://github.com/Phrungck/segmentation-models/blob/main/model-images/unet.PNG)
