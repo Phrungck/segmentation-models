@@ -14,5 +14,5 @@ In this repository you will find a list of different segmentation model implemen
    ![alt text](https://github.com/Phrungck/segmentation-models/blob/main/model-images/unet.PNG)
 
 * E-D CNN
-  * Link to code:
+  * Link to code: https://github.com/Phrungck/segmentation-models/blob/main/models/edcnn.py
   * Link to paper: https://arxiv.org/abs/2010.02281 
