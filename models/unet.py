@@ -36,11 +36,8 @@ class UpSample(nn.Module):
     def __init__(self, in_channels, out_channels, mode='bilinear'):
         super().__init__()
 
-        self.up = nn.Sequential(
-            nn.Upsample(scale_factor=2, mode=mode, align_corners=True),
-            nn.Conv2d(in_channels, out_channels, 1)
-        )
-        self.conv = DoubleConv(in_channels, out_channels)
+        self.up = nn.Upsample(scale_factor=2, mode=mode, align_corners=True)
+        self.conv = DoubleConv(in_channels+out_channels, out_channels)
 
     def forward(self, x1, x2):
 
